@@ -4,12 +4,48 @@
 # (e.g. "Sam K."), and no photos without school consent.
 # Confirm the rule with the teacher before adding names.
 #
-# Example entry:
-#   - { name: Sam K., role: Captain, subteam: Build }
+# Leader entry: name, role, grade, photo (file in static/img/team/), facts (list).
+# Member entry can be short:  - { name: Sam K., role: Programming }
+# Source for the leaders below: the team's Instagram introduction posts.
 
 season: 2026–27
 
-leaders: []      # captains and sub-team leads
+leaders:          # captains and sub-team leads
+  - name: Nikita
+    role: Co-captain
+    grade: 12
+    photo: nikita.jpg
+    facts: ["Competed at a national level in BJJ", "Spends too much money"]
+  - name: Stuti
+    role: Co-captain
+    grade: 12
+    photo: stuti.jpg
+    facts: ["Won a mock Iron Chef competition", "Got six chapters into writing a book"]
+  - name: Xin Jue
+    role: Business lead
+    grade: 12
+    photo: xin-jue.jpg
+    facts: ["Is a competitive figure skater", "Can do all three splits"]
+  - name: Colin
+    role: Build lead
+    grade: 12
+    photo: colin.jpg
+    facts: ["Has been scuba diving since 9 years old", "The only person so far who has done both robotics and football at Aldershot"]
+  - name: Gavin
+    role: Electrical lead
+    grade: 11
+    photo: gavin.jpg
+    facts: ["Can drive a boat", "Plays jazz music"]
+  - name: Kenzie
+    role: Design lead
+    grade: 12
+    photo: kenzie.jpg
+    facts: ["Competitive sim racer", "Has a twin brother"]
+  - name: Luke
+    role: Programming lead
+    grade: 12
+    photo: luke.jpg
+    facts: ["Plays the alto saxophone"]
 members: []      # everyone else
 mentors: []      # teacher(s) and mentors
 

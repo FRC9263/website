@@ -3,7 +3,7 @@
 {% macro people(list) %}
 <ul class="people">
   {% for p in list %}
-  <li><span class="p-name">{{ p.name }}</span>{% if p.role %}<span class="p-role">{{ p.role }}</span>{% endif %}{% if p.subteam %}<span class="p-sub">{{ p.subteam }}</span>{% endif %}</li>
+  <li><span class="p-name">{{ p.name }}</span>{% if p.role %}<span class="p-role">{{ p.role }}</span>{% endif %}</li>
   {% endfor %}
 </ul>
 {% endmacro %}
@@ -12,13 +12,31 @@
   <h1>The team</h1>
   <p class="lede">Who's building the robot in {{ team.season }}.</p>
 </header>
-<div class="wrap prose">
-  {% if team.leaders or team.members or team.mentors %}
-    {% if team.leaders %}<h2>Leadership</h2>{{ people(team.leaders) }}{% endif %}
-    {% if team.members %}<h2>Members</h2>{{ people(team.members) }}{% endif %}
-    {% if team.mentors %}<h2>Teachers and mentors</h2>{{ people(team.mentors) }}{% endif %}
-  {% else %}
-    <p class="empty">The {{ team.season }} roster is on its way. Want to be on it? <a href="/join/">Here's how to join.</a></p>
+<div class="wrap team-body">
+  {% if team.leaders %}
+  <h2>Leadership</h2>
+  <ul class="leaders">
+    {% for p in team.leaders %}
+    <li class="leader">
+      {% if p.photo %}<img src="/img/team/{{ p.photo }}" alt="{{ p.name }}" width="480" height="456" loading="lazy">{% endif %}
+      <div class="leader-text">
+        <p class="leader-role">{{ p.role }}</p>
+        <h3>{{ p.name }}</h3>
+        {% if p.grade %}<p class="leader-grade">Grade {{ p.grade }}</p>{% endif %}
+        {% if p.facts %}
+        <ul class="facts">{% for f in p.facts %}<li>{{ f }}</li>{% endfor %}</ul>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if team.members %}<h2>Members</h2>{{ people(team.members) }}{% endif %}
+  {% if team.mentors %}<h2>Teachers and mentors</h2>{{ people(team.mentors) }}{% endif %}
+
+  {% if not (team.leaders or team.members or team.mentors) %}
+  <p class="empty">The {{ team.season }} roster is on its way. Want to be on it? <a href="/join/">Here's how to join.</a></p>
   {% endif %}
 
   {% if team.subteams %}
@@ -27,5 +45,7 @@
     {% for s in team.subteams %}<dt>{{ s.name }}</dt><dd>{{ s.about }}</dd>{% endfor %}
   </dl>
   {% endif %}
+
+  <p class="cta-line">Want to join them? <a href="/join/">Here's how.</a></p>
 </div>
 {% endblock %}

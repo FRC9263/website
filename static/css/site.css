@@ -170,3 +170,17 @@ h2 { font-size: 2rem; font-weight: 800; }
   .top { padding-inline: 1.5rem; }
   .foot { padding-inline: 1.5rem; }
 }
+
+/* ---------- Team page leaders ---------- */
+.team-body { padding-bottom: 1rem; }
+.team-body > h2 { font-size: 1.8rem; margin-top: 1.5rem; }
+.leaders { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); }
+.leader { background: var(--mist); border-top: 6px solid var(--green); display: flex; flex-direction: column; }
+.leader:nth-child(-n+2) { border-top-color: var(--gold); }
+.leader img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 30%; }
+.leader-text { padding: 1rem 1.1rem 1.1rem; }
+.leader-role { margin: 0; color: var(--green-deep); font-weight: 600; }
+.leader h3 { font-size: 2rem; font-weight: 800; margin: .1rem 0 .15rem; }
+.leader-grade { margin: 0 0 .6rem; color: var(--muted); font-size: .95rem; }
+.facts { margin: 0; padding-left: 1.1rem; font-size: .98rem; }
+.facts li { margin-bottom: .25rem; }
