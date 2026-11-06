@@ -191,7 +191,9 @@ h2 { font-size: 2rem; font-weight: 800; }
 .press-item { border-left: 6px solid var(--gold); background: var(--mist); padding: 1rem 1.25rem; max-width: 46rem; }
 .press-meta { margin: 0 0 .25rem; color: var(--muted); font-size: .95rem; font-weight: 500; }
 .press-item h3 { font-size: 1.5rem; font-weight: 800; line-height: 1.1; margin: 0 0 .5rem; }
-.press-item h3 a { color: var(--ink); }
+.press-quote { margin: 0 0 .6rem; padding-left: .9rem; border-left: 3px solid var(--green); font-style: italic; }
+.press-quote p { margin: 0; }
+.press-link { margin: .5rem 0 0; font-weight: 600; }
 .press-item h3 a:hover { color: var(--green); }
 .press-item p:last-child { margin: 0; }
 .press-video { position: relative; aspect-ratio: 16 / 9; margin-top: 1rem; background: var(--ink); }

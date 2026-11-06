@@ -80,13 +80,16 @@ history:
 press:
   - outlet: CTV News Kitchener
     date: March 23, 2025
+    # heading/summary: our own words. quote: keep it short (under 15 words), word for word.
+    heading: ALD Lions part of a world-record alliance at Waterloo
+    quote: "Team ALD Lions 9263 from Aldershot School in Burlington, Ont."
+    summary: >-
+      Captain CyberCavs 4678 picked Team DAVE 3683 and the ALD Lions, and the
+      alliance broke more than one world record at the University of Waterloo event.
     title: Waterloo and Breslau high schools beat multiple world records in FIRST Robotics Competition
     url: "https://www.ctvnews.ca/kitchener/article/waterloo-and-breslau-high-schools-beat-multiple-world-records-in-first-robotics-competition/"
     # Optional: the publisher's own embed player URL (the src="" part of their embed code)
     video: "https://embed.jasperplayer.com?brand=CTV_NEWS&destination=ctvnews_web&language=EN&contentId=3102934"
-    summary: >-
-      Covers the University of Waterloo District Event, where our alliance with
-      CyberCavs 4678 and Team DAVE 3683 broke more than one world record.
 
 links:
   - { title: The Blue Alliance, url: "https://www.thebluealliance.com/team/9263" }

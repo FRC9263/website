@@ -63,8 +63,10 @@
     {% for a in site.press %}
     <li class="press-item">
       <p class="press-meta">{{ a.outlet }}, {{ a.date }}</p>
-      <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
+      <h3>{{ a.heading or a.title }}</h3>
+      {% if a.quote %}<blockquote class="press-quote"><p>“{{ a.quote }}”</p></blockquote>{% endif %}
       <p>{{ a.summary }}</p>
+      <p class="press-link"><a href="{{ a.url }}">Read the full article on {{ a.outlet }}</a></p>
       {% if a.video %}
       <div class="press-video">
         <iframe src="{{ a.video }}" title="{{ a.outlet }} video: {{ a.title }}" loading="lazy"
