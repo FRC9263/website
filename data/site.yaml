@@ -12,6 +12,30 @@ intro: >-
   Every season we design, build and program a competition robot,
   then take it to events across Ontario.
 
+# Home page banner photo (file in static/img/) and its description for screen readers
+hero_photo: team-photo.jpg
+hero_alt: ALD Lions students and mentors together in the pits, wearing team shirts and safety glasses.
+
+# Big numbers under the banner. Keep these to facts from FRC Events / The Blue Alliance.
+stats:
+  - { value: "2023", label: Rookie year }
+  - { value: "4", label: Seasons competed }
+  - { value: "1", label: Event win }
+this_season: { year: "2027", game: BIOCORE }
+
+# Short blocks near the bottom of the home page
+blocks:
+  - title: Aldershot School
+    text: >-
+      Our home school in Burlington, Ontario. Aldershot students who want
+      to be part of the team can reach us through the Join page.
+    link: { title: How to join, url: /join/ }
+  - title: FIRST Robotics Competition
+    text: >-
+      An international high-school robotics program. Each January a new game is
+      announced, and teams build a full-size robot to play it at events.
+    link: { title: What FRC is, url: /about/#what-frc-is }
+
 # Main menu (order = order on screen)
 nav:
   - { title: About, url: /about/ }

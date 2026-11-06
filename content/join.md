@@ -5,9 +5,7 @@ lede: Students, parents, mentors and sponsors are all welcome.
 
 ## Aldershot students
 
-You don't need any experience. The team needs builders, programmers,
-designers, writers, photographers and people who like organizing things.
-Email us and we'll tell you when and where we meet.
+Want to be on the team? Email us and we'll tell you when and where we meet.
 
 ## Mentors
 

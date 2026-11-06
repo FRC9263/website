@@ -1,17 +1,36 @@
 {% extends "base.html" %}
 {% block bodyclass %}home{% endblock %}
 {% block main %}
-<section class="hero" aria-labelledby="hero-title">
-  <h1 id="hero-title" class="hero-title">
-    <span class="hero-half hero-left">ALD</span>
-    <img class="hero-logo" src="/img/logo.png" alt="ALD Lions 9263 logo: a lion's head, half green and half gold" width="800" height="800">
-    <span class="hero-half hero-right">Lions</span>
-  </h1>
-  <p class="hero-sub">FRC Team {{ site.team_number }} from {{ site.school }}, {{ site.city }}</p>
+<section class="banner" aria-label="Team photo">
+  <img src="/img/{{ site.hero_photo }}" alt="{{ site.hero_alt }}" width="1320" height="825">
 </section>
 
-<section class="wrap intro">
-  <p>{{ site.intro }}</p>
+<section class="wrap welcome">
+  <div class="welcome-text">
+    <h1>Team {{ site.team_number }}</h1>
+    <p class="welcome-name">The {{ site.name }}</p>
+    <p class="welcome-intro">{{ site.intro }}</p>
+    <p class="buttons">
+      <a class="btn btn-green" href="/about/">About the team</a>
+      <a class="btn btn-gold" href="/sponsors/">Our sponsors</a>
+    </p>
+    <p class="quick-links">
+      <a href="/about/#what-frc-is">What is FIRST?</a>
+      <a href="/join/#sponsors">Sponsor the team</a>
+    </p>
+  </div>
+  <img class="welcome-logo" src="/img/logo.png" alt="" width="800" height="800">
+</section>
+
+<section class="stats" aria-label="Team at a glance">
+  <div class="wrap stats-inner">
+    <dl class="stat-list">
+      {% for s in site.stats %}
+      <div class="stat"><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>
+      {% endfor %}
+    </dl>
+    <p class="this-season"><span>This season</span> <strong>{{ site.this_season.game }}</strong> {{ site.this_season.year }}</p>
+  </div>
 </section>
 
 <section class="wrap pair" aria-label="Latest and next">
@@ -35,18 +54,27 @@
     <li><span class="t-year">{{ h.year }}</span><p>{{ h.text }}</p></li>
     {% endfor %}
   </ol>
-  <p class="more"><a href="/about/">More about the team</a></p>
+</section>
+
+<section class="wrap blocks" aria-label="Our school and program">
+  {% for b in site.blocks %}
+  <article class="block">
+    <h2><a href="{{ b.link.url }}">{{ b.title }}</a></h2>
+    <p>{{ b.text }}</p>
+    <p><a href="{{ b.link.url }}">{{ b.link.title }}</a></p>
+  </article>
+  {% endfor %}
 </section>
 
 <section class="sponsor-band" aria-labelledby="sp-title">
   <div class="wrap">
-    <h2 id="sp-title">Thank you to our {{ sponsors.season }} sponsors</h2>
+    <h2 id="sp-title">Grateful to our {{ sponsors.season }} sponsors</h2>
     <ul class="sponsor-names">
       {% for tier in sponsors.tiers %}{% for s in tier.sponsors %}
       <li>{{ s.name }}</li>
       {% endfor %}{% endfor %}
     </ul>
-    <p class="more"><a href="/join/#sponsors">Become a sponsor</a></p>
+    <p><a class="btn btn-gold" href="/join/#sponsors">Sponsor Team {{ site.team_number }}</a></p>
   </div>
 </section>
 {% endblock %}
