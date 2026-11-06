@@ -56,6 +56,21 @@
   </ol>
 </section>
 
+{% if site.press %}
+<section class="wrap press" aria-labelledby="press-title">
+  <h2 id="press-title">In the news</h2>
+  <ul class="press-list">
+    {% for a in site.press %}
+    <li class="press-item">
+      <p class="press-meta">{{ a.outlet }}, {{ a.date }}</p>
+      <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
+      <p>{{ a.summary }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <section class="wrap blocks" aria-label="Our school and program">
   {% for b in site.blocks %}
   <article class="block">

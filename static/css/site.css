@@ -184,3 +184,13 @@ h2 { font-size: 2rem; font-weight: 800; }
 .leader-grade { margin: 0 0 .6rem; color: var(--muted); font-size: .95rem; }
 .facts { margin: 0; padding-left: 1.1rem; font-size: .98rem; }
 .facts li { margin-bottom: .25rem; }
+
+/* ---------- In the news ---------- */
+.press { margin-bottom: 3rem; }
+.press-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+.press-item { border-left: 6px solid var(--gold); background: var(--mist); padding: 1rem 1.25rem; max-width: 46rem; }
+.press-meta { margin: 0 0 .25rem; color: var(--muted); font-size: .95rem; font-weight: 500; }
+.press-item h3 { font-size: 1.5rem; font-weight: 800; line-height: 1.1; margin: 0 0 .5rem; }
+.press-item h3 a { color: var(--ink); }
+.press-item h3 a:hover { color: var(--green); }
+.press-item p:last-child { margin: 0; }
