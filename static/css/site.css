@@ -199,3 +199,7 @@ h2 { font-size: 2rem; font-weight: 800; }
 .press-video { position: relative; aspect-ratio: 16 / 9; margin-top: 1rem; background: var(--ink); }
 .press-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .press-credit { margin: .4rem 0 0 !important; font-size: .85rem; color: var(--muted); }
+
+/* Sponsor logos on the green band sit on white tiles */
+.sponsor-names li.has-logo { background: #fff; border-color: #fff; padding: .5rem .9rem; display: grid; place-items: center; min-height: 3.5rem; }
+.sponsor-names li.has-logo img { max-height: 2.5rem; width: auto; }
