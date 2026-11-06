@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ meta.title }} · {{ site.name }} FRC {{ site.team_number }}{% endblock %}
+{% block main %}
+<header class="page-head wrap">
+  <h1>{{ meta.title }}</h1>
+  {% if meta.lede %}<p class="lede">{{ meta.lede }}</p>{% endif %}
+</header>
+<article class="wrap prose">
+  {{ body | safe }}
+</article>
+{% endblock %}

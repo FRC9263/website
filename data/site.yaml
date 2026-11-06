@@ -1,0 +1,58 @@
+# Site-wide settings and the home page blocks.
+# Edit the text here; run `python build.py` to rebuild.
+
+name: ALD Lions
+team_number: 9263
+school: Aldershot School
+city: Burlington, Ontario
+email: frc9263@gmail.com
+
+intro: >-
+  A FIRST Robotics Competition team from Aldershot School in Burlington.
+  Every season we design, build and program a competition robot,
+  then take it to events across Ontario.
+
+# Main menu (order = order on screen)
+nav:
+  - { title: About, url: /about/ }
+  - { title: Team, url: /team/ }
+  - { title: Sponsors, url: /sponsors/ }
+  - { title: Join, url: /join/ }
+
+# "Latest" block on the home page. Replaced by live data in build step 2.
+latest:
+  event: Overtime Sunday (off-season)
+  date: November 1, 2026
+  summary: >-
+    Ranked 14th of 27 after qualifications with a 4–3 record,
+    then led Alliance 8 into the playoffs.
+
+# "Next up" block on the home page.
+next:
+  title: 2027 season — BIOCORE
+  summary: >-
+    The new game is revealed at kickoff in January.
+    Our events will be listed here once the schedule is out.
+
+# Season history, newest first. Only facts from FIRST / The Blue Alliance.
+history:
+  - year: 2026
+    text: >-
+      REBUILT season. Competed at the Waterloo and Niagara College district
+      events and qualified for the FIRST Ontario Provincial Championship.
+  - year: 2025
+    text: >-
+      REEFSCAPE season. Won the University of Waterloo District Event,
+      our first event win and first blue banner.
+  - year: 2024
+    text: >-
+      CRESCENDO season, our second year in the Ontario district.
+  - year: 2023
+    text: >-
+      Rookie year. Earned the Rookie Inspiration Award at the
+      FIRST Ontario Provincial Championship.
+
+links:
+  - { title: The Blue Alliance, url: "https://www.thebluealliance.com/team/9263" }
+  - { title: FRC Events, url: "https://frc-events.firstinspires.org/team/9263" }
+  - { title: GitHub, url: "https://github.com/FRC9263" }

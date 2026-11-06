@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Sponsors · {{ site.name }} FRC {{ site.team_number }}{% endblock %}
+{% block main %}
+<header class="page-head wrap">
+  <h1>Our sponsors</h1>
+  <p class="lede">These businesses and organizations make our {{ sponsors.season }} season possible.</p>
+</header>
+<div class="wrap">
+  {% for tier in sponsors.tiers %}
+  <section class="tier">
+    <h2>{{ tier.name }}</h2>
+    <ul class="sponsor-grid">
+      {% for s in tier.sponsors %}
+      <li>
+        {% if s.url %}<a href="{{ s.url }}">{% endif %}
+        {% if s.logo %}<img src="/img/{{ s.logo }}" alt="{{ s.name }}">{% else %}<span>{{ s.name }}</span>{% endif %}
+        {% if s.url %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  <p class="cta-line">Want your company here next season? <a href="/join/#sponsors">Talk to us about sponsoring.</a></p>
+</div>
+{% endblock %}

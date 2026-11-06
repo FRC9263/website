@@ -1,0 +1,19 @@
+# Sponsors, grouped by tier. Tiers are shown in this order.
+# To add a logo: put the image in static/img/sponsors/ and set  logo: sponsors/<file>.png
+# To add a link: set  url: https://...
+# Source for the 2026 list: frc-events.firstinspires.org/2026/team/9263
+
+season: 2026
+
+tiers:
+  - name: Our 2026 sponsors
+    sponsors:
+      - { name: NAV Canada }
+      - { name: Veolia Canada }
+      - { name: Bozek Milligan Orthodontics }
+      - { name: "Allen Teska, Financial Planning Services" }
+      - { name: Bramur Customer Plastic Fabrication }   # spelled as on FIRST's list; check with sponsor
+      - { name: Champion Print Studio }
+      - { name: "Dan's Welding and Fabricating" }
+      - { name: Inksmith }
+      - { name: Aldershot High School }

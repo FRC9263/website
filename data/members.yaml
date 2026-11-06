@@ -1,0 +1,18 @@
+# Team roster. Students update this every September.
+#
+# Privacy: members are students. Use first name + last initial only
+# (e.g. "Sam K."), and no photos without school consent.
+# Confirm the rule with the teacher before adding names.
+#
+# Example entry:
+#   - { name: Sam K., role: Captain, subteam: Build }
+
+season: 2026–27
+
+leaders: []      # captains and sub-team leads
+members: []      # everyone else
+mentors: []      # teacher(s) and mentors
+
+# Sub-teams: fill in the team's real sub-teams. Example format:
+#   - { name: Programming, about: "Writes the robot code and autonomous routines." }
+subteams: []

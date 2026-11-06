@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.name }} · FRC {{ site.team_number }}{% endblock %}</title>
+  <meta name="description" content="{{ site.intro | trim }}">
+  <link rel="icon" href="/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="/">
+      <img src="/img/logo.png" alt="" width="44" height="44">
+      <span><strong>{{ site.name }}</strong> <span class="num">{{ site.team_number }}</span></span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        {% for item in site.nav %}
+        <li><a href="{{ item.url }}"{% if item.url.strip('/') == path %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="seam" aria-hidden="true"></div>
+
+  <main id="main">
+    {% block main %}{% endblock %}
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <div>
+        <p class="foot-name">{{ site.name }}, FRC Team {{ site.team_number }}</p>
+        <p>{{ site.school }}, {{ site.city }}</p>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+      <ul class="foot-links">
+        {% for l in site.links %}<li><a href="{{ l.url }}">{{ l.title }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    <p class="foot-small">© {{ year }} FRC Team {{ site.team_number }}. <em>FIRST</em> and <em>FIRST</em> Robotics Competition are trademarks of FIRST.</p>
+  </footer>
+</body>
+</html>

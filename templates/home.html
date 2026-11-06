@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block bodyclass %}home{% endblock %}
+{% block main %}
+<section class="hero" aria-labelledby="hero-title">
+  <h1 id="hero-title" class="hero-title">
+    <span class="hero-half hero-left">ALD</span>
+    <img class="hero-logo" src="/img/logo.png" alt="ALD Lions 9263 logo: a lion's head, half green and half gold" width="800" height="800">
+    <span class="hero-half hero-right">Lions</span>
+  </h1>
+  <p class="hero-sub">FRC Team {{ site.team_number }} from {{ site.school }}, {{ site.city }}</p>
+</section>
+
+<section class="wrap intro">
+  <p>{{ site.intro }}</p>
+</section>
+
+<section class="wrap pair" aria-label="Latest and next">
+  <article class="panel panel-latest">
+    <h2>Latest result</h2>
+    <p class="panel-event">{{ site.latest.event }}</p>
+    <p class="panel-date">{{ site.latest.date }}</p>
+    <p>{{ site.latest.summary }}</p>
+  </article>
+  <article class="panel panel-next">
+    <h2>Next up</h2>
+    <p class="panel-event">{{ site.next.title }}</p>
+    <p>{{ site.next.summary }}</p>
+  </article>
+</section>
+
+<section class="wrap history" aria-labelledby="history-title">
+  <h2 id="history-title">Our seasons</h2>
+  <ol class="timeline">
+    {% for h in site.history %}
+    <li><span class="t-year">{{ h.year }}</span><p>{{ h.text }}</p></li>
+    {% endfor %}
+  </ol>
+  <p class="more"><a href="/about/">More about the team</a></p>
+</section>
+
+<section class="sponsor-band" aria-labelledby="sp-title">
+  <div class="wrap">
+    <h2 id="sp-title">Thank you to our {{ sponsors.season }} sponsors</h2>
+    <ul class="sponsor-names">
+      {% for tier in sponsors.tiers %}{% for s in tier.sponsors %}
+      <li>{{ s.name }}</li>
+      {% endfor %}{% endfor %}
+    </ul>
+    <p class="more"><a href="/join/#sponsors">Become a sponsor</a></p>
+  </div>
+</section>
+{% endblock %}

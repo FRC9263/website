@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Team · {{ site.name }} FRC {{ site.team_number }}{% endblock %}
+{% macro people(list) %}
+<ul class="people">
+  {% for p in list %}
+  <li><span class="p-name">{{ p.name }}</span>{% if p.role %}<span class="p-role">{{ p.role }}</span>{% endif %}{% if p.subteam %}<span class="p-sub">{{ p.subteam }}</span>{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+{% block main %}
+<header class="page-head wrap">
+  <h1>The team</h1>
+  <p class="lede">Who's building the robot in {{ team.season }}.</p>
+</header>
+<div class="wrap prose">
+  {% if team.leaders or team.members or team.mentors %}
+    {% if team.leaders %}<h2>Leadership</h2>{{ people(team.leaders) }}{% endif %}
+    {% if team.members %}<h2>Members</h2>{{ people(team.members) }}{% endif %}
+    {% if team.mentors %}<h2>Teachers and mentors</h2>{{ people(team.mentors) }}{% endif %}
+  {% else %}
+    <p class="empty">The {{ team.season }} roster is on its way. Want to be on it? <a href="/join/">Here's how to join.</a></p>
+  {% endif %}
+
+  {% if team.subteams %}
+  <h2>Sub-teams</h2>
+  <dl class="subteams">
+    {% for s in team.subteams %}<dt>{{ s.name }}</dt><dd>{{ s.about }}</dd>{% endfor %}
+  </dl>
+  {% endif %}
+</div>
+{% endblock %}
