@@ -20,3 +20,7 @@ then email us to talk about supporting the 2027 season.
 ## Email
 
 [frc9263@gmail.com](mailto:frc9263@gmail.com)
+
+## Instagram
+
+[@frc9263](https://www.instagram.com/frc9263/)

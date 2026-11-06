@@ -6,6 +6,7 @@ team_number: 9263
 school: Aldershot School
 city: Burlington, Ontario
 email: frc9263@gmail.com
+instagram: "https://www.instagram.com/frc9263/"
 
 intro: >-
   A FIRST Robotics Competition team from Aldershot School in Burlington.
@@ -92,6 +93,7 @@ press:
     video: "https://embed.jasperplayer.com?brand=CTV_NEWS&destination=ctvnews_web&language=EN&contentId=3102934"
 
 links:
+  - { title: Instagram @frc9263, url: "https://www.instagram.com/frc9263/" }
   - { title: The Blue Alliance, url: "https://www.thebluealliance.com/team/9263" }
   - { title: FRC Events, url: "https://frc-events.firstinspires.org/team/9263" }
   - { title: GitHub, url: "https://github.com/FRC9263" }
