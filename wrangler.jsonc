@@ -1,0 +1,9 @@
+{
+  // Must match the Worker name in Cloudflare exactly, or builds fail
+  "name": "frc9263-website",
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    // Folder holding the finished web pages
+    "directory": "./public"
+  }
+}
