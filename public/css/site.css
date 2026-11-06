@@ -58,13 +58,14 @@ h2 { font-size: 2rem; font-weight: 800; }
 
 /* ---------- Home banner + welcome ---------- */
 .home .seam { display: block; }
-.banner { background: var(--ink); }
-.banner img {
-  width: 100%; aspect-ratio: 1320 / 825; object-fit: cover; object-position: center 72%;
+/* Photo shown whole, never stretched past its real width; blurred copy fills wide screens */
+.banner { position: relative; overflow: hidden; background: var(--green-deep); }
+.banner::before {
+  content: ""; position: absolute; inset: -40px;
+  background: var(--photo) center / cover no-repeat;
+  filter: blur(28px) brightness(.5);
 }
-@media (min-width: 60rem) {
-  .banner img { aspect-ratio: auto; height: min(46rem, 72vh); }
-}
+.banner img { position: relative; width: 100%; max-width: 1320px; height: auto; margin: 0 auto; }
 
 .welcome { display: grid; gap: 1.5rem; align-items: center; padding-top: 2.25rem; padding-bottom: 2.25rem; }
 @media (min-width: 52rem) { .welcome { grid-template-columns: 1fr auto; } }

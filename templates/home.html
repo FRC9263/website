@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block bodyclass %}home{% endblock %}
 {% block main %}
-<section class="banner" aria-label="Team photo">
-  <img src="/img/{{ site.hero_photo }}" alt="{{ site.hero_alt }}" width="1320" height="825">
+<section class="banner" aria-label="Team photo" style="--photo: url('/img/{{ site.hero_photo }}')">
+  <img src="/img/{{ site.hero_photo }}" alt="{{ site.hero_alt }}" width="1320" height="685">
 </section>
 
 <section class="wrap welcome">
