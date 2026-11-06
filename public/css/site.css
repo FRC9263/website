@@ -194,3 +194,6 @@ h2 { font-size: 2rem; font-weight: 800; }
 .press-item h3 a { color: var(--ink); }
 .press-item h3 a:hover { color: var(--green); }
 .press-item p:last-child { margin: 0; }
+.press-video { position: relative; aspect-ratio: 16 / 9; margin-top: 1rem; background: var(--ink); }
+.press-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.press-credit { margin: .4rem 0 0 !important; font-size: .85rem; color: var(--muted); }

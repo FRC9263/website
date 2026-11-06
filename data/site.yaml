@@ -82,6 +82,8 @@ press:
     date: March 23, 2025
     title: Waterloo and Breslau high schools beat multiple world records in FIRST Robotics Competition
     url: "https://www.ctvnews.ca/kitchener/article/waterloo-and-breslau-high-schools-beat-multiple-world-records-in-first-robotics-competition/"
+    # Optional: the publisher's own embed player URL (the src="" part of their embed code)
+    video: "https://embed.jasperplayer.com?brand=CTV_NEWS&destination=ctvnews_web&language=EN&contentId=3102934"
     summary: >-
       Covers the University of Waterloo District Event, where our alliance with
       CyberCavs 4678 and Team DAVE 3683 broke more than one world record.

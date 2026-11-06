@@ -65,6 +65,13 @@
       <p class="press-meta">{{ a.outlet }}, {{ a.date }}</p>
       <h3><a href="{{ a.url }}">{{ a.title }}</a></h3>
       <p>{{ a.summary }}</p>
+      {% if a.video %}
+      <div class="press-video">
+        <iframe src="{{ a.video }}" title="{{ a.outlet }} video: {{ a.title }}" loading="lazy"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="press-credit">Video: {{ a.outlet }}</p>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
