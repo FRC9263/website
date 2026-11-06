@@ -19,8 +19,9 @@ FIRST Ontario Provincial Championship.
 
 ## Our story so far
 
-- **2023** — Rookie season. We earned the Rookie Inspiration Award at the
-  FIRST Ontario Provincial Championship.
+- **2023** — Rookie season. We won the Rookie All Star Award and Highest Rookie
+  Seed at the Western University Engineering Event, and the Rookie Inspiration
+  Award at the FIRST Ontario Provincial Championship.
 - **2025** — We won the University of Waterloo District Event, our first event win.
 - **2026** — We qualified for the Provincial Championship again.
 
