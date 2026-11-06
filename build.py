@@ -5,6 +5,7 @@ and writes the finished site into public/ — the folder Cloudflare serves.
 
 Run:  python build.py
 """
+import hashlib
 import shutil
 from datetime import date
 from pathlib import Path
@@ -51,7 +52,9 @@ def main():
         autoescape=select_autoescape(["html"]),
     )
     site = load_yaml("site")
-    common = {"site": site, "year": date.today().year}
+    # Changes whenever site.css changes, so browsers fetch the new CSS instead of a cached copy
+    css_version = hashlib.md5((ROOT / "static/css/site.css").read_bytes()).hexdigest()[:8]
+    common = {"site": site, "year": date.today().year, "css_version": css_version}
 
     def render(template, path, **ctx):
         html = env.get_template(template).render(**common, path=path, **ctx)
