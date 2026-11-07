@@ -50,7 +50,7 @@ def build(root: Path, out: Path, site: dict, sponsors: dict):
     target = out / "sponsor-pack.pdf"
 
     from reportlab.pdfgen.canvas import Canvas
-    c = Canvas(str(target), pagesize=letter)
+    c = Canvas(str(target), pagesize=letter, invariant=1)  # same input -> same bytes, no daily churn
     c.setTitle(f"Sponsor Team {site['team_number']} - {site['name']}")
     c.setAuthor(f"FRC Team {site['team_number']}")
 
