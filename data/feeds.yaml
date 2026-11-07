@@ -14,6 +14,7 @@ groups:
     title: World robotics
     note: Industry and research news
     show: 5
+    per_source: 3      # no single site takes more than 3 spots
 
 feeds:
   - name: FIRST

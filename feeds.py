@@ -90,12 +90,16 @@ def load(fetch=True):
 
     groups = []
     for g in config["groups"]:
-        seen, items = set(), []
+        cap = g.get("per_source")  # max headlines from any one source (optional)
+        seen, per_source, items = set(), {}, []
         for i in sorted((i for i in everything if i["group"] == g["id"]),
                         key=lambda i: i["date"] or "", reverse=True):
             if i["link"] in seen:
                 continue
+            if cap and per_source.get(i["source"], 0) >= cap:
+                continue
             seen.add(i["link"])
+            per_source[i["source"]] = per_source.get(i["source"], 0) + 1
             items.append({**i, "nice_date": _nice_date(i["date"])})
         groups.append({**g, "headlines": items[: g.get("show", 5)]})
 
