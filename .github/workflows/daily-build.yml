@@ -1,0 +1,39 @@
+# Rebuilds the site once a day so the home page news stays fresh.
+# Runs build.py (which fetches the feeds) and pushes only if something changed.
+# Cloudflare sees the push and redeploys, same as a manual update.
+# Run it by hand: GitHub -> Actions -> "Daily rebuild" -> Run workflow.
+name: Daily rebuild
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # every day 10:17 UTC (5:17 or 6:17 am Toronto)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python build.py
+      - name: Commit if anything changed
+        run: |
+          git add -A public data/feed_cache.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git config user.name "frc9263-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Daily rebuild: news feeds"
+            git push
+          fi

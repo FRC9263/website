@@ -1,0 +1,27 @@
+# News feeds shown on the home page ("Robotics news").
+# Headline + link only — we never copy article text.
+# build.py fetches these every time it runs. If a feed is down, the last
+# good copy (data/feed_cache.json) is used instead, so the section never goes blank.
+#
+# To add a feed: copy a line, change name + url, pick a group, run `python build.py`.
+
+groups:
+  - id: frc
+    title: FIRST Robotics Competition
+    note: Official news from FIRST — teams worldwide
+    show: 5            # how many headlines on the home page
+  - id: world
+    title: World robotics
+    note: Industry and research news
+    show: 5
+
+feeds:
+  - name: FIRST
+    url: https://www.firstinspires.org/community-blog/topic/frc/rss.xml
+    group: frc
+  - name: IEEE Spectrum
+    url: https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel
+    group: world
+  - name: The Robot Report
+    url: https://www.therobotreport.com/feed/
+    group: world

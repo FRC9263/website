@@ -48,6 +48,29 @@
   </article>
 </section>
 
+{% if news and news.groups|selectattr("headlines")|list %}
+<section class="wrap news" aria-labelledby="news-title">
+  <h2 id="news-title">Robotics news</h2>
+  <div class="news-cols">
+    {% for g in news.groups if g.headlines %}
+    <div class="news-col news-{{ g.id }}">
+      <h3>{{ g.title }}</h3>
+      <p class="news-note">{{ g.note }}</p>
+      <ul class="news-list">
+        {% for i in g.headlines %}
+        <li>
+          <a href="{{ i.link }}" rel="noopener">{{ i.title }}</a>
+          <span class="news-meta">{{ i.source }}{% if i.nice_date %} · {{ i.nice_date }}{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="news-updated">Headlines update daily{% if news.updated %} · last checked {{ news.updated }}{% endif %}. Links go to the original sites.</p>
+</section>
+{% endif %}
+
 <section class="wrap history" aria-labelledby="history-title">
   <h2 id="history-title">Our seasons</h2>
   <ol class="timeline">

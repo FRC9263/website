@@ -203,3 +203,17 @@ h2 { font-size: 2rem; font-weight: 800; }
 /* Sponsor logos on the green band sit on white tiles */
 .sponsor-names li.has-logo { background: #fff; border-color: #fff; padding: .5rem .9rem; display: grid; place-items: center; min-height: 3.5rem; }
 .sponsor-names li.has-logo img { max-height: 2.5rem; width: auto; }
+
+/* ---------- Robotics news (home) ---------- */
+.news { margin-bottom: 3rem; }
+.news-cols { display: grid; gap: 1rem; }
+@media (min-width: 46rem) { .news-cols { grid-template-columns: 1fr 1fr; } }
+.news-col { background: var(--mist); border-top: 6px solid var(--green); padding: 1.2rem 1.4rem 1rem; }
+.news-world { border-top-color: var(--gold); }
+.news-col h3 { font-size: 1.6rem; font-weight: 800; margin: 0; }
+.news-note { margin: .1rem 0 .8rem; color: var(--muted); font-size: .95rem; }
+.news-list { list-style: none; margin: 0; padding: 0; }
+.news-list li { padding: .6rem 0; border-top: 1px solid var(--line); }
+.news-list a { font-weight: 600; line-height: 1.3; display: block; overflow-wrap: anywhere; }
+.news-meta { display: block; margin-top: .15rem; color: var(--muted); font-size: .9rem; }
+.news-updated { margin: .6rem 0 0; color: var(--muted); font-size: .9rem; }
