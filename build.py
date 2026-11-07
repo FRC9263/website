@@ -3,16 +3,20 @@
 Reads content/ (Markdown), data/ (YAML), templates/ (HTML) and static/,
 and writes the finished site into public/ — the folder Cloudflare serves.
 
-Run:  python build.py
+Run:  python build.py              (also fetches the news feeds)
+      python build.py --no-fetch   (use the saved feeds, no internet)
 """
 import hashlib
 import shutil
+import sys
 from datetime import date
 from pathlib import Path
 
 import markdown
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+import feeds
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "public"
@@ -60,7 +64,8 @@ def main():
         html = env.get_template(template).render(**common, path=path, **ctx)
         write(path, html)
 
-    render("home.html", "", sponsors=load_yaml("sponsors"))
+    news = feeds.load(fetch="--no-fetch" not in sys.argv)
+    render("home.html", "", sponsors=load_yaml("sponsors"), news=news)
 
     for page in ["about", "join"]:
         meta, body = load_md(page)
