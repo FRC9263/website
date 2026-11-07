@@ -42,6 +42,7 @@ nav:
   - { title: About, url: /about/ }
   - { title: Team, url: /team/ }
   - { title: Sponsors, url: /sponsors/ }
+  - { title: Sponsor us, url: /sponsor-us/ }
   - { title: Join, url: /join/ }
 
 # "Latest" block on the home page. Replaced by live data in build step 2.

@@ -71,6 +71,9 @@ def main():
         meta, body = load_md(page)
         render("page.html", page, meta=meta, body=body)
 
+    meta, body = load_md("sponsor-us")
+    render("sponsor_us.html", "sponsor-us", meta=meta, body=body)
+
     render("team.html", "team", team=load_yaml("members"))
     render("sponsors.html", "sponsors", sponsors=load_yaml("sponsors"))
 
