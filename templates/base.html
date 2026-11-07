@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<script>document.documentElement.classList.add("js")</script>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,13 +19,27 @@
       <img src="/img/logo.png" alt="" width="44" height="44">
       <span><strong>{{ site.name }}</strong> <span class="num">{{ site.team_number }}</span></span>
     </a>
-    <nav aria-label="Main">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="menu-label">Menu</span>
+    </button>
+    <nav class="drawer" id="site-nav" aria-label="Main">
+      <div class="drawer-head">
+        <span class="drawer-title">Menu</span>
+        <button class="drawer-close" type="button" aria-label="Close menu">&times;</button>
+      </div>
       <ul>
+        <li><a href="/"{% if path == '' %} aria-current="page"{% endif %}>Home</a></li>
         {% for item in site.nav %}
         <li><a href="{{ item.url }}"{% if item.url.strip('/') == path %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
         {% endfor %}
       </ul>
+      <div class="drawer-foot">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {% if site.instagram %}<a href="{{ site.instagram }}">Instagram @frc{{ site.team_number }}</a>{% endif %}
+      </div>
     </nav>
+    <div class="drawer-backdrop" hidden></div>
   </header>
   <div class="seam" aria-hidden="true"></div>
 
@@ -45,5 +60,25 @@
     </div>
     <p class="foot-small">© {{ year }} FRC Team {{ site.team_number }}. <em>FIRST</em> and <em>FIRST</em> Robotics Competition are trademarks of FIRST.</p>
   </footer>
+  <script>
+  // Side menu: the three-line button opens the drawer; Esc, the X, the backdrop or a link close it.
+  (function () {
+    var btn = document.querySelector(".menu-btn"), nav = document.getElementById("site-nav"),
+        back = document.querySelector(".drawer-backdrop"), close = nav.querySelector(".drawer-close");
+    function set(open) {
+      document.documentElement.classList.toggle("menu-open", open);
+      btn.setAttribute("aria-expanded", open);
+      back.hidden = !open;
+      if (open) { nav.querySelector("a").focus(); } else { btn.focus(); }
+    }
+    btn.addEventListener("click", function () { set(btn.getAttribute("aria-expanded") !== "true"); });
+    close.addEventListener("click", function () { set(false); });
+    back.addEventListener("click", function () { set(false); });
+    nav.addEventListener("click", function (e) { if (e.target.closest("a")) set(false); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && btn.getAttribute("aria-expanded") === "true") set(false);
+    });
+  })();
+  </script>
 </body>
 </html>

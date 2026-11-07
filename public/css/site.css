@@ -238,3 +238,51 @@ h2 { font-size: 2rem; font-weight: 800; }
 .level h3 { font-size: 1.8rem; font-weight: 800; margin: 0; }
 .level-amount { font: 600 1.3rem/1.2 var(--display); color: var(--green-deep); margin: .1rem 0 .6rem; }
 .level ul { padding-left: 1.1rem; margin: 0; }
+
+/* ---------- Side menu (three-line button + drawer) ---------- */
+/* Without JavaScript the menu stays a plain row of links in the header. */
+.menu-btn, .drawer-head, .drawer-foot, .drawer-backdrop { display: none; }
+.js .menu-btn {
+  display: inline-flex; align-items: center; gap: .55rem;
+  background: none; border: 2px solid var(--ink); color: var(--ink);
+  padding: .45rem .7rem; cursor: pointer; font: 600 1.15rem/1 var(--display);
+}
+.js .menu-btn:hover { border-color: var(--green); color: var(--green); }
+.menu-bars { display: grid; gap: 4px; width: 22px; }
+.menu-bars span { display: block; height: 3px; background: currentColor; transition: transform .2s, opacity .2s; }
+.menu-open .menu-bars span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.menu-open .menu-bars span:nth-child(2) { opacity: 0; }
+.menu-open .menu-bars span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+.js .drawer {
+  position: fixed; top: 0; right: 0; bottom: 0; z-index: 30;
+  width: min(20rem, 85vw); background: var(--green-deep); color: #fff;
+  display: flex; flex-direction: column; overflow-y: auto;
+  transform: translateX(100%); visibility: hidden;
+  transition: transform .25s ease, visibility 0s linear .25s;
+  border-left: 6px solid var(--gold);
+}
+.menu-open .drawer { transform: none; visibility: visible; transition: transform .25s ease; }
+.js .drawer-head { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; border-bottom: 1px solid rgba(255,255,255,.2); }
+.drawer-title { font: 800 1.6rem/1 var(--display); }
+.drawer-close { background: none; border: 0; color: #fff; font-size: 2.2rem; line-height: 1; cursor: pointer; padding: 0 .25rem; }
+.drawer-close:hover { color: var(--gold); }
+.js .drawer ul { display: block; padding: .75rem 0; }
+.js .drawer li a {
+  display: block; padding: .8rem 1.25rem; color: #fff; border-bottom: 0;
+  font: 600 1.6rem/1.1 var(--display); border-left: 5px solid transparent;
+}
+.js .drawer li a:hover { background: rgba(255,255,255,.08); color: var(--gold); border-bottom: 0; }
+.js .drawer li a[aria-current="page"] { border-left-color: var(--gold); color: var(--gold); }
+.js .drawer-foot { display: grid; gap: .4rem; margin-top: auto; padding: 1.25rem; border-top: 1px solid rgba(255,255,255,.2); }
+.js .drawer-foot a { color: var(--gold); font: 500 1rem/1.4 var(--body); padding: 0; border-bottom: 0; overflow-wrap: anywhere; }
+.js .drawer-foot a:hover { color: #f2d466; }
+.js .top { flex-wrap: nowrap; }
+.js .drawer-backdrop { display: block; position: fixed; inset: 0; z-index: 20; background: rgba(23,34,30,.55); }
+.js .drawer-backdrop[hidden] { display: none; }
+.menu-open body { overflow: hidden; }
+@media (prefers-reduced-motion: reduce) { .js .drawer, .menu-bars span { transition: none; } }
+/* Very narrow phones: keep the three lines, hide the word "Menu" (still read by screen readers) */
+@media (max-width: 26rem) {
+  .menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
