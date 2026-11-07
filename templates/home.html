@@ -16,7 +16,7 @@
     </p>
     <p class="quick-links">
       <a href="/about/#what-frc-is">What is FIRST?</a>
-      <a href="/join/#sponsors">Sponsor the team</a>
+      <a href="/sponsor-us/">Sponsor the team</a>
       {% if site.instagram %}<a href="{{ site.instagram }}">Follow us on Instagram</a>{% endif %}
     </p>
   </div>
@@ -122,7 +122,7 @@
       <li{% if s.logo %} class="has-logo"{% endif %}>{% if s.logo %}<img src="/img/{{ s.logo }}" alt="{{ s.name }}" loading="lazy">{% else %}{{ s.name }}{% endif %}</li>
       {% endfor %}{% endfor %}
     </ul>
-    <p><a class="btn btn-gold" href="/join/#sponsors">Sponsor Team {{ site.team_number }}</a></p>
+    <p><a class="btn btn-gold" href="/sponsor-us/">Sponsor Team {{ site.team_number }}</a></p>
   </div>
 </section>
 {% endblock %}

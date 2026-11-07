@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}{{ meta.title }} · {{ site.name }} FRC {{ site.team_number }}{% endblock %}
+{% block main %}
+{% set mail = "mailto:" ~ site.email ~ "?subject=Sponsoring%20FRC%20Team%20" ~ site.team_number %}
+<header class="page-head wrap sponsor-head">
+  <div>
+    <h1>{{ meta.title }}</h1>
+    <p class="lede">{{ meta.lede }}</p>
+    <p class="buttons">
+      <a class="btn btn-green" href="{{ mail }}">Email us</a>
+      <a class="btn btn-gold" href="/sponsors/">See our sponsors</a>
+    </p>
+  </div>
+  <img class="sponsor-photo" src="/img/{{ site.hero_photo }}" alt="{{ site.hero_alt }}" width="1320" height="685">
+</header>
+
+<section class="stats" aria-label="Team at a glance">
+  <div class="wrap stats-inner">
+    <dl class="stat-list">
+      {% for s in site.stats %}
+      <div class="stat"><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+{% if meta.ways %}
+<section class="wrap ways" aria-labelledby="ways-title">
+  <h2 id="ways-title">Ways to help</h2>
+  <ul class="ways-list">
+    {% for w in meta.ways %}
+    <li class="way"><h3>{{ w.title }}</h3><p>{{ w.text }}</p></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<article class="wrap prose">
+  {{ body | safe }}
+</article>
+
+<section class="sponsor-band" aria-labelledby="contact-title">
+  <div class="wrap">
+    <h2 id="contact-title">Let's talk</h2>
+    <p>Tell us how you'd like to help, and a team member will get back to you.
+      Every contribution, big or small, goes into the season.</p>
+    <p><a class="btn btn-gold" href="{{ mail }}">{{ site.email }}</a></p>
+  </div>
+</section>
+{% endblock %}
