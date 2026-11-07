@@ -5,6 +5,43 @@
   <h1>Our sponsors</h1>
   <p class="lede">These businesses and organizations make our {{ sponsors.season }} season possible.</p>
 </header>
+{% set pitch = sponsors.pitch %}
+{% if pitch %}
+<section class="wrap pitch" id="sponsor-us" aria-labelledby="pitch-title">
+  <div class="pitch-main">
+    <h2 id="pitch-title">{{ pitch.heading }}</h2>
+    <p class="pitch-intro">{{ pitch.intro }}</p>
+    <h3>Where your support goes</h3>
+    <ul class="pitch-list">{% for u in pitch.uses %}<li>{{ u }}</li>{% endfor %}</ul>
+    {% if pitch.in_kind %}<p>{{ pitch.in_kind }}</p>{% endif %}
+    <p class="buttons">
+      <a class="btn btn-gold" href="mailto:{{ site.email }}?subject={{ pitch.email_subject | urlencode }}">Email us about sponsoring</a>
+    </p>
+    <p class="pitch-email">{{ site.email }}</p>
+  </div>
+  {% if pitch.highlights %}
+  <aside class="pitch-proof" aria-label="Team highlights">
+    <h3>Our track record</h3>
+    <ul>{% for h in pitch.highlights %}<li>{{ h }}</li>{% endfor %}</ul>
+    <p><a href="{{ 'https://www.thebluealliance.com/team/' ~ site.team_number }}">Full results on The Blue Alliance</a></p>
+  </aside>
+  {% endif %}
+</section>
+{% if pitch.show_levels and pitch.levels %}
+<section class="wrap levels" aria-labelledby="levels-title">
+  <h2 id="levels-title">Sponsorship levels</h2>
+  <ul class="level-grid">
+    {% for l in pitch.levels %}
+    <li class="level">
+      <h3>{{ l.name }}</h3>
+      <p class="level-amount">{{ l.amount if l.amount else "Ask us" }}</p>
+      <ul>{% for p in l.perks %}<li>{{ p }}</li>{% endfor %}</ul>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endif %}
 <div class="wrap">
   {% for tier in sponsors.tiers %}
   <section class="tier">
@@ -20,6 +57,6 @@
     </ul>
   </section>
   {% endfor %}
-  <p class="cta-line">Want your company here next season? <a href="/join/#sponsors">Talk to us about sponsoring.</a></p>
+  <p class="cta-line">Want your company here next season? <a href="#sponsor-us">Talk to us about sponsoring.</a></p>
 </div>
 {% endblock %}

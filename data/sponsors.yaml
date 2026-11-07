@@ -5,6 +5,38 @@
 
 season: 2026
 
+# ---------- "Sponsor us" section at the top of /sponsors/ ----------
+# Generic text for now. Edit freely; run `python build.py` to rebuild.
+pitch:
+  heading: Sponsor Team 9263
+  intro: >-
+    We're a student robotics team from Aldershot School in Burlington.
+    Every season we design, build and program a full-size competition robot
+    in a few weeks, then take it to events across Ontario. Sponsors make that possible.
+  # Where the money goes. Add real numbers later, e.g. "Event registration ($X per event)".
+  uses:
+    - Event registration fees
+    - Robot parts, motors and electronics
+    - Tools and materials for our build space
+    - Travel to events
+    - Outreach to schools that don't have a robotics program yet
+  # Facts only (from FRC Events / The Blue Alliance) - same as site.yaml history.
+  highlights:
+    - Rookie All Star Award, 2023
+    - Won the University of Waterloo District Event, 2025
+    - Qualified for the FIRST Ontario Provincial Championship, 2026
+  in_kind: >-
+    Not just money: parts, machining, tools, software and mentoring help
+    just as much. Ask us what we need this season.
+  email_subject: Sponsoring FRC Team 9263
+  # Sponsorship levels. Hidden until amounts and perks are agreed with the team.
+  # Set show_levels: false to put them on the page. Leave amount empty to show "Ask us".
+  show_levels: false
+  levels:
+    - { name: Supporter, amount: "", perks: [Name on our website, Thank-you post on Instagram] }
+    - { name: Silver,    amount: "", perks: [Logo on our website, Logo on our home page] }
+    - { name: Gold,      amount: "", perks: [Everything in Silver, Logo on the robot, Logo on team shirts] }
+
 tiers:
   - name: Our 2026 sponsors
     sponsors:
