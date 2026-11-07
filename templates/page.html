@@ -5,7 +5,20 @@
   <h1>{{ meta.title }}</h1>
   {% if meta.lede %}<p class="lede">{{ meta.lede }}</p>{% endif %}
 </header>
+{# A page can place the season timeline with <!-- timeline --> in its Markdown (and timeline: true) #}
+{% set parts = body.split('<!-- timeline -->') %}
 <article class="wrap prose">
-  {{ body | safe }}
+  {{ parts[0] | safe }}
+{% if meta.timeline and site.season_timeline %}
+  <section class="season" aria-labelledby="season-title">
+    <h2 id="season-title">How an FRC season works</h2>
+    <ol class="season-steps">
+      {% for s in site.season_timeline %}
+      <li><p class="season-when">{{ s.when }}</p><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
+  {{ parts[1:] | join('') | safe }}
 </article>
 {% endblock %}

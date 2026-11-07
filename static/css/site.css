@@ -283,3 +283,28 @@ h2 { font-size: 2rem; font-weight: 800; }
 @media (prefers-reduced-motion: reduce) { .js .drawer, .menu-bars span { transition: none; } }
 /* The word "Menu" is for screen readers only; on screen it is just the three lines */
 .menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Robots page ---------- */
+.robot-grid { list-style: none; margin: 0 0 3rem; padding: 0; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+.robot { background: var(--mist); border-top: 6px solid var(--green); display: flex; flex-direction: column; }
+.robot-next { border-top-color: var(--gold); }
+.robot-photo { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.robot-empty { display: grid; place-content: center; justify-items: center; gap: .6rem; background: #dde6e1; color: var(--muted); font-weight: 600; text-align: center; padding: 1rem; }
+.robot-empty img { width: 96px; height: 96px; opacity: .55; border-radius: 50%; }
+.robot-next .robot-empty { background: var(--green-deep); color: #fff; font: 600 1.4rem/1.2 var(--display); }
+.robot-text { padding: 1rem 1.2rem 1.2rem; }
+.robot-year { margin: 0; color: var(--green-deep); font-weight: 600; }
+.robot-text h2 { font-size: 2rem; margin: .1rem 0 .4rem; }
+.robot-text p { margin: 0 0 .6rem; }
+.robot-links { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; font-weight: 600; margin-bottom: 0 !important; }
+
+/* ---------- How an FRC season works (About page) ---------- */
+.prose > .season { max-width: none; padding-top: .5rem; }
+.season h2 { font-size: 1.8rem; }
+.season-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); counter-reset: step; }
+.season-steps li { background: var(--mist); border-top: 6px solid var(--green); padding: 1rem 1.2rem; counter-increment: step; }
+.season-steps li:nth-child(1), .season-steps li:nth-child(5) { border-top-color: var(--gold); }
+.season-when { margin: 0; color: var(--green-deep); font-weight: 600; }
+.season-when::before { content: counter(step) ". "; }
+.season-steps h3 { font-size: 1.6rem; font-weight: 800; margin: .15rem 0 .35rem; }
+.season-steps p:last-child { margin: 0; }

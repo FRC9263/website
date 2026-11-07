@@ -1,5 +1,6 @@
 ---
 title: About us
+timeline: true   # shows 'How an FRC season works' (text in site.yaml, season_timeline)
 lede: Aldershot School's FIRST Robotics Competition team, competing in the Ontario district since 2023.
 ---
 
@@ -16,6 +17,8 @@ Each January a new game is announced. Teams get a few weeks to build a robot for
 then play matches in three-team alliances at events. Ontario runs as a district:
 teams earn points at district events, and the top teams move on to the
 FIRST Ontario Provincial Championship.
+
+<!-- timeline -->
 
 ## Our story so far
 

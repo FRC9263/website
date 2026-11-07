@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Robots · {{ site.name }} FRC {{ site.team_number }}{% endblock %}
+{% block main %}
+<header class="page-head wrap">
+  <h1>Our robots</h1>
+  <p class="lede">Every season we build a new robot from scratch for that year's game.</p>
+</header>
+<div class="wrap">
+  <ul class="robot-grid">
+    {% if site.this_season %}
+    <li class="robot robot-next">
+      <div class="robot-photo robot-empty"><span>Build starts at kickoff in January</span></div>
+      <div class="robot-text">
+        <p class="robot-year">{{ site.this_season.year }}</p>
+        <h2>{{ site.this_season.game }}</h2>
+        <p>Next season's robot. Follow along on <a href="{{ site.instagram }}">Instagram</a>.</p>
+      </div>
+    </li>
+    {% endif %}
+    {% for r in robots.seasons %}
+    <li class="robot">
+      {% if r.photo %}
+      <img class="robot-photo" src="/img/{{ r.photo }}" alt="{{ r.name or 'Our ' ~ r.year ~ ' robot' }}" loading="lazy">
+      {% else %}
+      <div class="robot-photo robot-empty"><img src="/img/logo.png" alt="" width="96" height="96"><span>Photo coming soon</span></div>
+      {% endif %}
+      <div class="robot-text">
+        <p class="robot-year">{{ r.year }} · {{ r.game }}</p>
+        <h2>{{ r.name or (r.year ~ ' robot') }}</h2>
+        {% if r.summary %}<p>{{ r.summary }}</p>{% endif %}
+        <p class="robot-links">
+          <a href="https://www.thebluealliance.com/team/{{ site.team_number }}/{{ r.year }}">The Blue Alliance</a>
+          <a href="https://frc-events.firstinspires.org/{{ r.year }}/team/{{ site.team_number }}">FRC Events</a>
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

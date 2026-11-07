@@ -73,6 +73,12 @@ def main():
         render("page.html", page, meta=meta, body=body)
 
     render("team.html", "team", team=load_yaml("members"))
+
+    robots = load_yaml("robots")
+    history = {h["year"]: h["text"] for h in site.get("history", [])}
+    for r in robots.get("seasons", []):
+        r["summary"] = " ".join(str(history.get(r["year"], "")).split())
+    render("robots.html", "robots", robots=robots)
     render("sponsors.html", "sponsors", sponsors=load_yaml("sponsors"))
     sponsor_pdf.build(ROOT, OUT, site, load_yaml("sponsors"))   # public/sponsor-pack.pdf
 

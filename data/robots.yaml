@@ -1,0 +1,11 @@
+# One entry per season, newest first. Shown on /robots/.
+# The season write-up comes from `history:` in site.yaml (matched by year), so it's written once.
+#   name:  the robot's name, if it has one       e.g.  name: Simba
+#   photo: a file in static/img/robots/           e.g.  photo: robots/2026.jpg
+# Leave name or photo empty and the card shows a placeholder.
+
+seasons:
+  - { year: 2026, game: REBUILT,    name: "", photo: "" }
+  - { year: 2025, game: REEFSCAPE,  name: "", photo: "" }
+  - { year: 2024, game: CRESCENDO,  name: "", photo: "" }
+  - { year: 2023, game: CHARGED UP, name: "", photo: "" }

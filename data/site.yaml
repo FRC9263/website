@@ -41,6 +41,7 @@ blocks:
 nav:
   - { title: About, url: /about/ }
   - { title: Team, url: /team/ }
+  - { title: Robots, url: /robots/ }
   - { title: Sponsors, url: /sponsors/ }
   - { title: Join, url: /join/ }
 
@@ -77,6 +78,38 @@ history:
       Rookie year. Won the Rookie All Star Award and Highest Rookie Seed at
       the Western University Engineering Event, then the Rookie Inspiration
       Award at the FIRST Ontario Provincial Championship.
+
+# "How an FRC season works" on the About page. General FRC facts, same every year.
+season_timeline:
+  - when: Early January
+    title: Kickoff
+    text: >-
+      FIRST reveals the new game. Every team in the world sees it at the
+      same moment and starts planning a robot from scratch.
+  - when: January – February
+    title: Build season
+    text: >-
+      We design, build, wire and program the robot, then test and fix it
+      until it can play the game reliably.
+  - when: March – early April
+    title: District events
+    text: >-
+      Teams play matches in three-team alliances at Ontario district events
+      and earn district points for how they do.
+  - when: Mid-April
+    title: Provincial Championship
+    text: >-
+      The top Ontario teams by district points meet at the FIRST Ontario
+      Provincial Championship.
+  - when: Late April
+    title: FIRST Championship
+    text: >-
+      The best teams from around the world compete at the FIRST Championship.
+  - when: May – December
+    title: Off-season
+    text: >-
+      New members learn the basics, we practise at off-season events,
+      and we raise money for the next season.
 
 # News coverage. Newest first. Headline + link only; describe it in our own words.
 press:
