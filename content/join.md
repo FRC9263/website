@@ -14,7 +14,7 @@ students build a robot, we'd love to hear from you.
 
 ## Sponsors
 
-Sponsors pay for parts, tools and event fees. See [our sponsors](/sponsors/),
+Sponsors pay for parts, tools and event fees. See [how sponsoring works](/sponsors/#sponsor-us),
 then email us to talk about supporting the 2027 season.
 
 ## Email
