@@ -1,0 +1,265 @@
+{
+ "feeds": {
+  "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
+   "fetched": "2026-11-07T12:29:34.054399+00:00",
+   "items": [
+    {
+     "title": "Volunteer Registration & Volunteer Trainings",
+     "link": "https://www.firstinspires.org/community-blog/2026-volunteer-registration-and-volunteer-trainings",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-10-30T15:53:39+00:00"
+    },
+    {
+     "title": "2027 Event & Robot Rule Preview - Part 2",
+     "link": "https://www.firstinspires.org/community-blog/2026-event-robot-rule-preview-for-2027-season-part-2",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-10-22T16:18:04+00:00"
+    },
+    {
+     "title": "Digital Animation Award for FIRST CANOPY Season",
+     "link": "https://www.firstinspires.org/community-blog/2026-digital-animation-award-for-first-canopy-season",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-10-20T15:48:55+00:00"
+    },
+    {
+     "title": "Systemcore Pricing and Availability",
+     "link": "https://www.firstinspires.org/community-blog/2026-systemcore-pricing-and-availability",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-09-23T19:17:55+00:00"
+    },
+    {
+     "title": "BIOCORE Events!",
+     "link": "https://www.firstinspires.org/community-blog/2026-biocore-events-for-2027",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-09-22T20:20:25+00:00"
+    }
+   ]
+  },
+  "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
+   "fetched": "2026-11-07T12:29:34.462367+00:00",
+   "items": [
+    {
+     "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
+     "link": "https://spectrum.ieee.org/video-friday-home-cable-robot",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-11-06T17:00:03+00:00"
+    },
+    {
+     "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+     "link": "https://spectrum.ieee.org/drone-delivery-noise",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-11-04T18:47:21+00:00"
+    },
+    {
+     "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
+     "link": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-30T16:30:03+00:00"
+    },
+    {
+     "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+     "link": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-27T16:14:39+00:00"
+    },
+    {
+     "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself",
+     "link": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-23T15:30:02+00:00"
+    },
+    {
+     "title": "The Robot I Didn’t Expect to Build",
+     "link": "https://spectrum.ieee.org/agility-robotics-digit-5-redesign",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-19T13:00:03+00:00"
+    },
+    {
+     "title": "Video Friday: When Two Robots Become One",
+     "link": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-16T16:30:02+00:00"
+    },
+    {
+     "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
+     "link": "https://spectrum.ieee.org/mars-rover-distance-record",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-13T15:02:04+00:00"
+    },
+    {
+     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+     "link": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-09T15:30:02+00:00"
+    },
+    {
+     "title": "This Disembodied Hand Is All the Robot You Need",
+     "link": "https://spectrum.ieee.org/walking-robotic-hand",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-08T12:00:02+00:00"
+    },
+    {
+     "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+     "link": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-07T13:49:48+00:00"
+    },
+    {
+     "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
+     "link": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-02T16:30:02+00:00"
+    },
+    {
+     "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
+     "link": "https://spectrum.ieee.org/robust-robot-hand",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-10-01T14:40:12+00:00"
+    },
+    {
+     "title": "A Day in the Life of a Roboticist: Charlie Kemp",
+     "link": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-09-28T21:48:56+00:00"
+    },
+    {
+     "title": "Video Friday: Life’s Better With a Little Robot Goose",
+     "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-09-25T16:00:04+00:00"
+    }
+   ]
+  },
+  "https://www.therobotreport.com/feed/": {
+   "fetched": "2026-11-07T12:29:34.655490+00:00",
+   "items": [
+    {
+     "title": "How Point One turned GPS accuracy into a robotics platform",
+     "link": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-06T21:47:35+00:00"
+    },
+    {
+     "title": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+     "link": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-06T21:34:44+00:00"
+    },
+    {
+     "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+     "link": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-06T20:41:17+00:00"
+    },
+    {
+     "title": "How did Agility Robotics perform on its first day on the stock market?",
+     "link": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-05T22:48:14+00:00"
+    },
+    {
+     "title": "How Ambi Robotics helps its customers prepare for peak season",
+     "link": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-05T16:50:23+00:00"
+    },
+    {
+     "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
+     "link": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-05T16:25:46+00:00"
+    },
+    {
+     "title": "Agility Robotics begins trading on Nasdaq",
+     "link": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-05T14:46:29+00:00"
+    },
+    {
+     "title": "Robotics Startup Radar 2026",
+     "link": "https://www.therobotreport.com/robotics-startup-radar-2026/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-04T16:08:46+00:00"
+    },
+    {
+     "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
+     "link": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-04T15:22:55+00:00"
+    },
+    {
+     "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+     "link": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-04T15:02:57+00:00"
+    },
+    {
+     "title": "Ben Waters on the latest wireless charging strategies",
+     "link": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-03T21:29:37+00:00"
+    },
+    {
+     "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
+     "link": "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-03T14:40:33+00:00"
+    },
+    {
+     "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+     "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-03T00:15:39+00:00"
+    },
+    {
+     "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+     "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-02T19:25:59+00:00"
+    },
+    {
+     "title": "Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries",
+     "link": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-02T18:06:36+00:00"
+    }
+   ]
+  }
+ },
+ "updated": "2026-11-07T12:29:34.655498+00:00"
+}
