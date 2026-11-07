@@ -17,6 +17,7 @@ import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 import feeds
+import sponsor_pdf
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "public"
@@ -73,6 +74,7 @@ def main():
 
     render("team.html", "team", team=load_yaml("members"))
     render("sponsors.html", "sponsors", sponsors=load_yaml("sponsors"))
+    sponsor_pdf.build(ROOT, OUT, site, load_yaml("sponsors"))   # public/sponsor-pack.pdf
 
     # 404 page sits at public/404.html (Cloudflare serves it for unknown URLs)
     (OUT / "404.html").write_text(

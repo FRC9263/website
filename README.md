@@ -10,6 +10,7 @@ data/       lists in YAML           (site.yaml, sponsors.yaml, members.yaml)
 templates/  page layouts (HTML)
 static/     css + images, copied as-is
 build.py    turns all of the above into public/
+sponsor_pdf.py  builds public/sponsor-pack.pdf from the same sponsor text
 public/     the finished site — this is what Cloudflare serves
 ```
 
