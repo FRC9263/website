@@ -243,16 +243,15 @@ h2 { font-size: 2rem; font-weight: 800; }
 /* Without JavaScript the menu stays a plain row of links in the header. */
 .menu-btn, .drawer-head, .drawer-foot, .drawer-backdrop { display: none; }
 .js .menu-btn {
-  display: inline-flex; align-items: center; gap: .55rem;
-  background: none; border: 2px solid var(--ink); color: var(--ink);
-  padding: .45rem .7rem; cursor: pointer; font: 600 1.15rem/1 var(--display);
+  display: inline-grid; place-items: center; width: 44px; height: 44px;
+  background: none; border: 0; padding: 0; color: var(--ink); cursor: pointer;
 }
-.js .menu-btn:hover { border-color: var(--green); color: var(--green); }
-.menu-bars { display: grid; gap: 4px; width: 22px; }
-.menu-bars span { display: block; height: 3px; background: currentColor; transition: transform .2s, opacity .2s; }
-.menu-open .menu-bars span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.js .menu-btn:hover { color: var(--green); }
+.menu-bars { display: grid; gap: 6px; width: 28px; }
+.menu-bars span { display: block; height: 3px; border-radius: 2px; background: currentColor; transition: transform .2s, opacity .2s; }
+.menu-open .menu-bars span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
 .menu-open .menu-bars span:nth-child(2) { opacity: 0; }
-.menu-open .menu-bars span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.menu-open .menu-bars span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
 
 .js .drawer {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 30;
@@ -282,7 +281,5 @@ h2 { font-size: 2rem; font-weight: 800; }
 .js .drawer-backdrop[hidden] { display: none; }
 .menu-open body { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) { .js .drawer, .menu-bars span { transition: none; } }
-/* Very narrow phones: keep the three lines, hide the word "Menu" (still read by screen readers) */
-@media (max-width: 26rem) {
-  .menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-}
+/* The word "Menu" is for screen readers only; on screen it is just the three lines */
+.menu-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
