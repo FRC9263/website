@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-07T12:29:34.054399+00:00",
+   "fetched": "2026-11-08T16:40:49.425238+00:00",
    "items": [
     {
      "title": "Volunteer Registration & Volunteer Trainings",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-07T12:29:34.462367+00:00",
+   "fetched": "2026-11-08T16:40:49.885047+00:00",
    "items": [
     {
      "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
@@ -151,8 +151,22 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-07T12:29:34.655490+00:00",
+   "fetched": "2026-11-08T16:40:50.120699+00:00",
    "items": [
+    {
+     "title": "ARM Institute consortium grows to more than 500 organizations",
+     "link": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-08T13:00:23+00:00"
+    },
+    {
+     "title": "Robot integration brings high-precision production to midmarket manufacturers",
+     "link": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-07T13:32:59+00:00"
+    },
     {
      "title": "How Point One turned GPS accuracy into a robotics platform",
      "link": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
@@ -243,23 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-03T00:15:39+00:00"
-    },
-    {
-     "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-     "link": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-02T19:25:59+00:00"
-    },
-    {
-     "title": "Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries",
-     "link": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-02T18:06:36+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-07T12:29:34.655498+00:00"
+ "updated": "2026-11-08T16:40:50.120710+00:00"
 }
