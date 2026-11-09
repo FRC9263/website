@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-08T16:40:49.425238+00:00",
+   "fetched": "2026-11-09T20:44:54.005669+00:00",
    "items": [
     {
      "title": "Volunteer Registration & Volunteer Trainings",
@@ -41,8 +41,15 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-08T16:40:49.885047+00:00",
+   "fetched": "2026-11-09T20:44:54.326856+00:00",
    "items": [
+    {
+     "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+     "link": "https://spectrum.ieee.org/agentic-robotics",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-11-09T14:00:02+00:00"
+    },
     {
      "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
      "link": "https://spectrum.ieee.org/video-friday-home-cable-robot",
@@ -140,19 +147,26 @@
      "source": "IEEE Spectrum",
      "group": "world",
      "date": "2026-09-28T21:48:56+00:00"
-    },
-    {
-     "title": "Video Friday: Life’s Better With a Little Robot Goose",
-     "link": "https://spectrum.ieee.org/video-friday-goose-household-robots",
-     "source": "IEEE Spectrum",
-     "group": "world",
-     "date": "2026-09-25T16:00:04+00:00"
     }
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-08T16:40:50.120699+00:00",
+   "fetched": "2026-11-09T20:44:54.529128+00:00",
    "items": [
+    {
+     "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+     "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-09T18:34:38+00:00"
+    },
+    {
+     "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+     "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-09T15:40:41+00:00"
+    },
     {
      "title": "ARM Institute consortium grows to more than 500 organizations",
      "link": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
@@ -243,23 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-03T21:29:37+00:00"
-    },
-    {
-     "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
-     "link": "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-03T14:40:33+00:00"
-    },
-    {
-     "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
-     "link": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-03T00:15:39+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-08T16:40:50.120710+00:00"
+ "updated": "2026-11-09T20:44:54.529143+00:00"
 }
