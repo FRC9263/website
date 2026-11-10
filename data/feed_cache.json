@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-09T20:44:54.005669+00:00",
+   "fetched": "2026-11-10T17:51:13.956166+00:00",
    "items": [
     {
      "title": "Volunteer Registration & Volunteer Trainings",
@@ -41,10 +41,10 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-09T20:44:54.326856+00:00",
+   "fetched": "2026-11-10T17:51:14.440832+00:00",
    "items": [
     {
-     "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+     "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
      "link": "https://spectrum.ieee.org/agentic-robotics",
      "source": "IEEE Spectrum",
      "group": "world",
@@ -151,8 +151,36 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-09T20:44:54.529128+00:00",
+   "fetched": "2026-11-10T17:51:14.661136+00:00",
    "items": [
+    {
+     "title": "Why predictive maintenance matters more as factories add robots",
+     "link": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-10T16:13:40+00:00"
+    },
+    {
+     "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+     "link": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-10T14:47:10+00:00"
+    },
+    {
+     "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+     "link": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-10T13:06:58+00:00"
+    },
+    {
+     "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+     "link": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-09T21:52:05+00:00"
+    },
     {
      "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
      "link": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
@@ -229,37 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-05T14:46:29+00:00"
-    },
-    {
-     "title": "Robotics Startup Radar 2026",
-     "link": "https://www.therobotreport.com/robotics-startup-radar-2026/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-04T16:08:46+00:00"
-    },
-    {
-     "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
-     "link": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-04T15:22:55+00:00"
-    },
-    {
-     "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
-     "link": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-04T15:02:57+00:00"
-    },
-    {
-     "title": "Ben Waters on the latest wireless charging strategies",
-     "link": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-03T21:29:37+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-09T20:44:54.529143+00:00"
+ "updated": "2026-11-10T17:51:14.661151+00:00"
 }
