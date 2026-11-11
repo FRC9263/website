@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-10T17:51:13.956166+00:00",
+   "fetched": "2026-11-11T17:54:18.787555+00:00",
    "items": [
     {
      "title": "Volunteer Registration & Volunteer Trainings",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-10T17:51:14.440832+00:00",
+   "fetched": "2026-11-11T17:54:19.175421+00:00",
    "items": [
     {
      "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
@@ -151,8 +151,36 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-10T17:51:14.661136+00:00",
+   "fetched": "2026-11-11T17:54:19.429218+00:00",
    "items": [
+    {
+     "title": "Serve Robotics opens robot delivery network for others to build on",
+     "link": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-11T13:43:29+00:00"
+    },
+    {
+     "title": "Memories.ai builds standardized egocentric video pipeline",
+     "link": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-11T13:00:34+00:00"
+    },
+    {
+     "title": "Can AI agents program industrial robots without training data? Berkeley says yes",
+     "link": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-11T12:55:16+00:00"
+    },
+    {
+     "title": "Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots",
+     "link": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-10T18:31:17+00:00"
+    },
     {
      "title": "Why predictive maintenance matters more as factories add robots",
      "link": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
@@ -229,37 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-06T20:41:17+00:00"
-    },
-    {
-     "title": "How did Agility Robotics perform on its first day on the stock market?",
-     "link": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-05T22:48:14+00:00"
-    },
-    {
-     "title": "How Ambi Robotics helps its customers prepare for peak season",
-     "link": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-05T16:50:23+00:00"
-    },
-    {
-     "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
-     "link": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-05T16:25:46+00:00"
-    },
-    {
-     "title": "Agility Robotics begins trading on Nasdaq",
-     "link": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-05T14:46:29+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-10T17:51:14.661151+00:00"
+ "updated": "2026-11-11T17:54:19.429233+00:00"
 }
