@@ -1,8 +1,15 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-11T17:54:18.787555+00:00",
+   "fetched": "2026-11-12T18:20:36.024647+00:00",
    "items": [
+    {
+     "title": "2027 Kit of Parts Reminders",
+     "link": "https://www.firstinspires.org/community-blog/2026-kit-of-parts-reminder-for-2027",
+     "source": "FIRST",
+     "group": "frc",
+     "date": "2026-11-12T17:07:25+00:00"
+    },
     {
      "title": "Volunteer Registration & Volunteer Trainings",
      "link": "https://www.firstinspires.org/community-blog/2026-volunteer-registration-and-volunteer-trainings",
@@ -30,18 +37,11 @@
      "source": "FIRST",
      "group": "frc",
      "date": "2026-09-23T19:17:55+00:00"
-    },
-    {
-     "title": "BIOCORE Events!",
-     "link": "https://www.firstinspires.org/community-blog/2026-biocore-events-for-2027",
-     "source": "FIRST",
-     "group": "frc",
-     "date": "2026-09-22T20:20:25+00:00"
     }
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-11T17:54:19.175421+00:00",
+   "fetched": "2026-11-12T18:20:36.371115+00:00",
    "items": [
     {
      "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
@@ -151,8 +151,29 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-11T17:54:19.429218+00:00",
+   "fetched": "2026-11-12T18:20:36.725583+00:00",
    "items": [
+    {
+     "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
+     "link": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-12T16:33:17+00:00"
+    },
+    {
+     "title": "Viam Launchpad aims to accelerate robotics deployments",
+     "link": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-12T13:30:31+00:00"
+    },
+    {
+     "title": "Runway’s Praxis-1 world action model for robotics is now available",
+     "link": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-12T13:18:47+00:00"
+    },
     {
      "title": "Serve Robotics opens robot delivery network for others to build on",
      "link": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
@@ -236,30 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-07T13:32:59+00:00"
-    },
-    {
-     "title": "How Point One turned GPS accuracy into a robotics platform",
-     "link": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-06T21:47:35+00:00"
-    },
-    {
-     "title": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
-     "link": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-06T21:34:44+00:00"
-    },
-    {
-     "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
-     "link": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-06T20:41:17+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-11T17:54:19.429233+00:00"
+ "updated": "2026-11-12T18:20:36.725597+00:00"
 }
