@@ -7,5 +7,7 @@
     "directory": "./public",
     // Unknown URLs get public/404.html
     "not_found_handling": "404-page"
-  }
+  },
+  // Needed for preview builds of non-main branches (wrangler preview). Can stay empty.
+  "previews": {}
 }
