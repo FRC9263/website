@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-13T17:46:18.097051+00:00",
+   "fetched": "2026-11-14T16:37:17.666491+00:00",
    "items": [
     {
      "title": "2027 Kit of Parts Reminders",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-13T17:46:18.506050+00:00",
+   "fetched": "2026-11-14T16:37:18.197878+00:00",
    "items": [
     {
      "title": "Video Friday: NASA PROMISEs a New Moon Rover",
@@ -151,7 +151,7 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-13T17:46:18.680141+00:00",
+   "fetched": "2026-11-14T16:37:18.410535+00:00",
    "items": [
     {
      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
@@ -166,6 +166,13 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-13T13:30:44+00:00"
+    },
+    {
+     "title": "Narwal builds robot vacuums to serve regional needs",
+     "link": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-13T13:18:05+00:00"
     },
     {
      "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
@@ -250,16 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-09T18:34:38+00:00"
-    },
-    {
-     "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
-     "link": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-09T15:40:41+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-13T17:46:18.680158+00:00"
+ "updated": "2026-11-14T16:37:18.410549+00:00"
 }
