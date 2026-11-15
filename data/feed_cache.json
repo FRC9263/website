@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-14T16:37:17.666491+00:00",
+   "fetched": "2026-11-15T17:12:41.815136+00:00",
    "items": [
     {
      "title": "2027 Kit of Parts Reminders",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-14T16:37:18.197878+00:00",
+   "fetched": "2026-11-15T17:12:42.263415+00:00",
    "items": [
     {
      "title": "Video Friday: NASA PROMISEs a New Moon Rover",
@@ -151,7 +151,7 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-14T16:37:18.410535+00:00",
+   "fetched": "2026-11-15T17:12:42.528784+00:00",
    "items": [
     {
      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
@@ -261,5 +261,5 @@
    ]
   }
  },
- "updated": "2026-11-14T16:37:18.410549+00:00"
+ "updated": "2026-11-15T17:12:42.528802+00:00"
 }
