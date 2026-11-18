@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-17T19:11:47.993771+00:00",
+   "fetched": "2026-11-18T18:51:47.996204+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-17T19:11:48.394822+00:00",
+   "fetched": "2026-11-18T18:51:48.607842+00:00",
    "items": [
     {
      "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
@@ -151,8 +151,36 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-17T19:11:48.630858+00:00",
+   "fetched": "2026-11-18T18:51:49.005272+00:00",
    "items": [
+    {
+     "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+     "link": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-18T18:00:09+00:00"
+    },
+    {
+     "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
+     "link": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-18T16:44:18+00:00"
+    },
+    {
+     "title": "California DMV bars Waymo AVs from operating on the state’s freeways",
+     "link": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-17T23:55:07+00:00"
+    },
+    {
+     "title": "Learn how AI is changing supply chain robotics",
+     "link": "https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-17T19:58:18+00:00"
+    },
     {
      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
      "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
@@ -229,37 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-11T13:43:29+00:00"
-    },
-    {
-     "title": "Memories.ai builds standardized egocentric video pipeline",
-     "link": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-11T13:00:34+00:00"
-    },
-    {
-     "title": "Can AI agents program industrial robots without training data? Berkeley says yes",
-     "link": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-11T12:55:16+00:00"
-    },
-    {
-     "title": "Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots",
-     "link": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-10T18:31:17+00:00"
-    },
-    {
-     "title": "Why predictive maintenance matters more as factories add robots",
-     "link": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-10T16:13:40+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-17T19:11:48.630870+00:00"
+ "updated": "2026-11-18T18:51:49.005286+00:00"
 }
