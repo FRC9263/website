@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-19T18:59:28.896413+00:00",
+   "fetched": "2026-11-20T18:37:13.409627+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,8 +41,15 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-19T18:59:29.356369+00:00",
+   "fetched": "2026-11-20T18:37:13.846150+00:00",
    "items": [
+    {
+     "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
+     "link": "https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-11-20T17:30:03+00:00"
+    },
     {
      "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
      "link": "https://spectrum.ieee.org/telesurgery-stroke",
@@ -140,19 +147,26 @@
      "source": "IEEE Spectrum",
      "group": "world",
      "date": "2026-10-09T15:30:02+00:00"
-    },
-    {
-     "title": "This Disembodied Hand Is All the Robot You Need",
-     "link": "https://spectrum.ieee.org/walking-robotic-hand",
-     "source": "IEEE Spectrum",
-     "group": "world",
-     "date": "2026-10-08T12:00:02+00:00"
     }
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-19T18:59:29.638483+00:00",
+   "fetched": "2026-11-20T18:37:14.104162+00:00",
    "items": [
+    {
+     "title": "MassRobotics launching marine robotics facility on Boston Harbor",
+     "link": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-20T17:04:28+00:00"
+    },
+    {
+     "title": "Robotics enters its post-Jensen Huang era",
+     "link": "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-20T03:06:28+00:00"
+    },
     {
      "title": "What industrial drone deployments reveal about real-world autonomy challenges",
      "link": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
@@ -243,23 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-13T13:18:05+00:00"
-    },
-    {
-     "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
-     "link": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-12T16:33:17+00:00"
-    },
-    {
-     "title": "Viam Launchpad aims to accelerate robotics deployments",
-     "link": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-12T13:30:31+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-19T18:59:29.638501+00:00"
+ "updated": "2026-11-20T18:37:14.104178+00:00"
 }
