@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-20T18:37:13.409627+00:00",
+   "fetched": "2026-11-21T17:33:14.745092+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-20T18:37:13.846150+00:00",
+   "fetched": "2026-11-21T17:33:15.225738+00:00",
    "items": [
     {
      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
@@ -151,8 +151,15 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-20T18:37:14.104162+00:00",
+   "fetched": "2026-11-21T17:33:15.380406+00:00",
    "items": [
+    {
+     "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
+     "link": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-21T00:55:45+00:00"
+    },
     {
      "title": "MassRobotics launching marine robotics facility on Boston Harbor",
      "link": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
@@ -250,16 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-13T13:30:44+00:00"
-    },
-    {
-     "title": "Narwal builds robot vacuums to serve regional needs",
-     "link": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-13T13:18:05+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-20T18:37:14.104178+00:00"
+ "updated": "2026-11-21T17:33:15.380422+00:00"
 }
