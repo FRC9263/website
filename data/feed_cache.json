@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-21T17:33:14.745092+00:00",
+   "fetched": "2026-11-22T17:49:59.650181+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-21T17:33:15.225738+00:00",
+   "fetched": "2026-11-22T17:50:00.107455+00:00",
    "items": [
     {
      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
@@ -151,8 +151,15 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-21T17:33:15.380406+00:00",
+   "fetched": "2026-11-22T17:50:00.287829+00:00",
    "items": [
+    {
+     "title": "The manufacturing data gap holding back physical AI",
+     "link": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-21T22:25:35+00:00"
+    },
     {
      "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
      "link": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
@@ -250,16 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-13T16:32:58+00:00"
-    },
-    {
-     "title": "How Rhoda AI is using video data to create generalized AI models for robots",
-     "link": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-13T13:30:44+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-21T17:33:15.380422+00:00"
+ "updated": "2026-11-22T17:50:00.287846+00:00"
 }
