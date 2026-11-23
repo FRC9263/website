@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-22T17:49:59.650181+00:00",
+   "fetched": "2026-11-23T22:03:44.897537+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-22T17:50:00.107455+00:00",
+   "fetched": "2026-11-23T22:03:45.227732+00:00",
    "items": [
     {
      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
@@ -151,8 +151,29 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-22T17:50:00.287829+00:00",
+   "fetched": "2026-11-23T22:03:45.629246+00:00",
    "items": [
+    {
+     "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+     "link": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-23T20:29:55+00:00"
+    },
+    {
+     "title": "Special Report: Engineering Focus on Motion Control",
+     "link": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-23T15:16:26+00:00"
+    },
+    {
+     "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+     "link": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-23T14:20:46+00:00"
+    },
     {
      "title": "The manufacturing data gap holding back physical AI",
      "link": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
@@ -236,30 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-16T23:49:56+00:00"
-    },
-    {
-     "title": "Agile Robots raises $500M to increase production capacity",
-     "link": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-16T17:47:48+00:00"
-    },
-    {
-     "title": "Food robotics 2.0: why this time could be different",
-     "link": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-14T13:00:38+00:00"
-    },
-    {
-     "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
-     "link": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-13T16:32:58+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-22T17:50:00.287846+00:00"
+ "updated": "2026-11-23T22:03:45.629260+00:00"
 }
