@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-23T22:03:44.897537+00:00",
+   "fetched": "2026-11-24T20:40:08.114613+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-23T22:03:45.227732+00:00",
+   "fetched": "2026-11-24T20:40:08.492386+00:00",
    "items": [
     {
      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
@@ -151,8 +151,22 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-23T22:03:45.629246+00:00",
+   "fetched": "2026-11-24T20:40:08.745484+00:00",
    "items": [
+    {
+     "title": "Robotics Summit 2027 opens call for speakers",
+     "link": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-24T18:03:37+00:00"
+    },
+    {
+     "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+     "link": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-24T14:48:57+00:00"
+    },
     {
      "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
      "link": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
@@ -243,23 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-17T19:58:18+00:00"
-    },
-    {
-     "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-     "link": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-17T14:49:05+00:00"
-    },
-    {
-     "title": "The hidden reason most robots fail on the factory floor",
-     "link": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-16T23:49:56+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-23T22:03:45.629260+00:00"
+ "updated": "2026-11-24T20:40:08.745503+00:00"
 }
