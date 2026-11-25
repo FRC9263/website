@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-24T20:40:08.114613+00:00",
+   "fetched": "2026-11-25T19:56:59.056580+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,8 +41,15 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-24T20:40:08.492386+00:00",
+   "fetched": "2026-11-25T19:56:59.605452+00:00",
    "items": [
+    {
+     "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+     "link": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+     "source": "IEEE Spectrum",
+     "group": "world",
+     "date": "2026-11-25T15:00:03+00:00"
+    },
     {
      "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
      "link": "https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor",
@@ -140,19 +147,26 @@
      "source": "IEEE Spectrum",
      "group": "world",
      "date": "2026-10-13T15:02:04+00:00"
-    },
-    {
-     "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
-     "link": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
-     "source": "IEEE Spectrum",
-     "group": "world",
-     "date": "2026-10-09T15:30:02+00:00"
     }
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-24T20:40:08.745484+00:00",
+   "fetched": "2026-11-25T19:56:59.755780+00:00",
    "items": [
+    {
+     "title": "How Vention is cutting factory programming from weeks to minutes",
+     "link": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-25T18:24:42+00:00"
+    },
+    {
+     "title": "FCC should focus on robot security, not country of origin",
+     "link": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-25T17:00:07+00:00"
+    },
     {
      "title": "Robotics Summit 2027 opens call for speakers",
      "link": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
@@ -243,23 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-18T16:44:18+00:00"
-    },
-    {
-     "title": "California DMV bars Waymo AVs from operating on the state’s freeways",
-     "link": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-17T23:55:07+00:00"
-    },
-    {
-     "title": "Learn how AI is changing supply chain robotics",
-     "link": "https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-17T19:58:18+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-24T20:40:08.745503+00:00"
+ "updated": "2026-11-25T19:56:59.755794+00:00"
 }
