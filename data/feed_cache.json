@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-25T19:56:59.056580+00:00",
+   "fetched": "2026-11-26T19:37:52.484488+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-25T19:56:59.605452+00:00",
+   "fetched": "2026-11-26T19:37:52.924470+00:00",
    "items": [
     {
      "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
@@ -151,7 +151,7 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-25T19:56:59.755780+00:00",
+   "fetched": "2026-11-26T19:37:53.105482+00:00",
    "items": [
     {
      "title": "How Vention is cutting factory programming from weeks to minutes",
@@ -261,5 +261,5 @@
    ]
   }
  },
- "updated": "2026-11-25T19:56:59.755794+00:00"
+ "updated": "2026-11-26T19:37:53.105491+00:00"
 }
