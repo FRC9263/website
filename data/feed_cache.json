@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://www.firstinspires.org/community-blog/topic/frc/rss.xml": {
-   "fetched": "2026-11-26T19:37:52.484488+00:00",
+   "fetched": "2026-11-27T19:28:49.221014+00:00",
    "items": [
     {
      "title": "Systemcore On-sale Date Update",
@@ -41,7 +41,7 @@
    ]
   },
   "https://feeds.feedburner.com/IeeeSpectrumRoboticsChannel": {
-   "fetched": "2026-11-26T19:37:52.924470+00:00",
+   "fetched": "2026-11-27T19:28:49.492439+00:00",
    "items": [
     {
      "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
@@ -151,8 +151,15 @@
    ]
   },
   "https://www.therobotreport.com/feed/": {
-   "fetched": "2026-11-26T19:37:53.105482+00:00",
+   "fetched": "2026-11-27T19:28:49.600138+00:00",
    "items": [
+    {
+     "title": "GXO doubling down on robotics in 2027",
+     "link": "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/",
+     "source": "The Robot Report",
+     "group": "world",
+     "date": "2026-11-27T13:56:43+00:00"
+    },
     {
      "title": "How Vention is cutting factory programming from weeks to minutes",
      "link": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
@@ -250,16 +257,9 @@
      "source": "The Robot Report",
      "group": "world",
      "date": "2026-11-18T18:00:09+00:00"
-    },
-    {
-     "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
-     "link": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
-     "source": "The Robot Report",
-     "group": "world",
-     "date": "2026-11-18T16:44:18+00:00"
     }
    ]
   }
  },
- "updated": "2026-11-26T19:37:53.105491+00:00"
+ "updated": "2026-11-27T19:28:49.600153+00:00"
 }
